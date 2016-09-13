@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  proxygen:
+    image: maybach/ds3:09.12.16.18
+    ports:
+      - '8080:8080'
